@@ -1,0 +1,367 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    
+  }
+  
+  .paragraph {
+        text-align: justify;
+       
+        width: 100%;
+        margin: 0 auto;
+      }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: -63px;
+    margin-right: 40px;
+    margin-top: -20px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  li:first-child {
+    margin-left: 0;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+  }
+  
+  .about-tamil-cinema {
+    background-color: black;
+    color: white;
+    padding: 50px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .filmography {
+    padding: 50px;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .container1 {
+    max-width: 960px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 400px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .column a {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .saas-banner {
+  height: 840px;
+  background: #cccccc;
+  position: relative;
+  z-index: 1;
+}
+
+.saas-banner .saas-image {
+  z-index: 1;
+}
+
+.saas-banner .saas-image.mt-70 {
+  margin-top: 70px;
+}
+
+.saas-banner .hero-content {
+  z-index: 1;
+  position: relative;
+}
+
+.saas-banner .hero-content h1 {
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.saas-banner .hero-content p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.saas-banner .hero-content .default-btn {
+  background-color: #ee4132;
+}
+
+.saas-banner .hero-content .default-btn i {
+  color: #ff612f;
+}
+
+.saas-banner .hero-content .default-btn:hover i {
+  color: #ffffff;
+}
+
+.saas-banner .hero-content .default-btn span {
+  background-color: #ff612f;
+}
+
+.saas-banner .hero-content .video-btn {
+  margin-left: 15px;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+  margin-top: 6px;
+  -webkit-transform: .6s;
+  transform: .6s;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.saas-banner .hero-content .video-btn i {
+  font-size: 20px;
+  position: relative;
+  margin-left: inherit;
+  background: #ffffff;
+  color: #ff612f;
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  padding-left: 3px;
+  margin-right: 6px;
+}
+
+.saas-banner .hero-content .video-btn:hover i {
+  background-color: #ee4132;
+  color: #ffffff;
+}
+
+.saas-banner .saas-image {
+  position: relative;
+}
+
+.saas-banner .saas-image img {
+  position: absolute;
+}
+
+.saas-banner .saas-image img:nth-child(1) {
+  top: -200px;
+  left: 0;
+}
+
+.saas-banner .saas-image img:nth-child(2) {
+  left: 55px;
+  top: -100px;
+}
+
+.saas-banner .saas-image img:nth-child(3) {
+  left: 32%;
+  z-index: 1;
+  top: -170px;
+}
+
+.saas-banner .saas-image img:nth-child(4) {
+  right: 27%;
+  top: 110px;
+  z-index: 2;
+}
+
+.saas-banner .saas-image img:nth-child(5) {
+  right: 15%;
+  top: 80px;
+  z-index: 2;
+}
+
+.saas-banner .saas-image img:nth-child(6) {
+  right: 36%;
+  top: -170px;
+}
+
+.saas-banner .saas-image img:nth-child(7) {
+  right: 50%;
+  top: 96px;
+  z-index: 2;
+}
+
+.saas-banner .saas-image img:nth-child(8) {
+  right: 25%;
+  top: 45px;
+  z-index: 1;
+}
+
+.saas-banner .saas-image img:nth-child(9) {
+  right: 100px;
+  top: 5px;
+}
+
+.saas-banner .saas-image img:nth-child(10) {
+  left: 28%;
+  top: -76px;
+  z-index: 1;
+}
+
+.saas-banner .saas-image img:nth-child(11) {
+  right: 40%;
+  top: -20px;
+}
+
+.saas-banner .saas-image img:nth-child(12) {
+  top: -292px;
+  left: 45px;
+}
+
+.saas-banner .saas-image img:last-child {
+  display: none;
+}
+
+.saas-banner #particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+}
+
+.photocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.photocontainer img {
+  
+  margin: 10px;
+  box-shadow:  0px 0px 10px 5px white;
+}
+
+.photocontainer p {
+  text-align: center;
+  font-weight: bold;
+}
