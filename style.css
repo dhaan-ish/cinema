@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-form {
+    background-color: #cccccc;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #3e8e41;
+  }
+  .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: -63px;
+    margin-right: 40px;
+    margin-top: -20px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  li:first-child {
+    margin-left: 0;
+  }
+  ul a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+  }
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .container3 {
+    max-width: 960px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 400px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+	
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .column a {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-decoration: none;
+  }
